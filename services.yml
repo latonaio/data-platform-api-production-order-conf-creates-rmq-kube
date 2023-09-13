@@ -26,6 +26,7 @@ spec:
               value: "data-platform-api-production-order-conf-creates-queue"
             - name: "RMQ_QUEUE_TO_SQL"
               value: "sql-update-kube"
+#              value: "convert-to-sap-pp-order-conf-from-dpfm-pp-order-conf-queue-from"
             - name: "RMQ_QUEUE_TO_EX_CONF"
               value: ""
             - name: "RMQ_QUEUE_TO_HEADERS_SUB_FUNC"
@@ -57,4 +58,4 @@ spec:
       port: 8080
       protocol: TCP
       targetPort: 8080
-      nodePort: 30311
+      nodePort: 30312

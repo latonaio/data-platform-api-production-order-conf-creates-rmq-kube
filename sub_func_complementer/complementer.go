@@ -2,8 +2,8 @@ package sub_func_complementer
 
 import (
 	"context"
-	dpfm_api_input_reader "data-platform-api-production-order-confirmation-creates-rmq-kube/DPFM_API_Input_Reader"
-	"data-platform-api-production-order-confirmation-creates-rmq-kube/config"
+	dpfm_api_input_reader "data-platform-api-production-order-conf-creates-rmq-kube/DPFM_API_Input_Reader"
+	"data-platform-api-production-order-conf-creates-rmq-kube/config"
 	"encoding/json"
 	"github.com/latonaio/golang-logging-library-for-data-platform/logger"
 	database "github.com/latonaio/golang-mysql-network-connector"

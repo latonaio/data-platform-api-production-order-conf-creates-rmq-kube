@@ -2,9 +2,9 @@ package existence_conf
 
 import (
 	"context"
-	dpfm_api_input_reader "data-platform-api-production-order-confirmation-creates-rmq-kube/DPFM_API_Input_Reader"
-	dpfm_api_output_formatter "data-platform-api-production-order-confirmation-creates-rmq-kube/DPFM_API_Output_Formatter"
-	"data-platform-api-production-order-confirmation-creates-rmq-kube/config"
+	dpfm_api_input_reader "data-platform-api-production-order-conf-creates-rmq-kube/DPFM_API_Input_Reader"
+	dpfm_api_output_formatter "data-platform-api-production-order-conf-creates-rmq-kube/DPFM_API_Output_Formatter"
+	"data-platform-api-production-order-conf-creates-rmq-kube/config"
 	"encoding/json"
 	"fmt"
 	"strings"

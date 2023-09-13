@@ -1,7 +1,7 @@
 package existence_conf
 
 import (
-	dpfm_api_input_reader "data-platform-api-production-order-confirmation-creates-rmq-kube/DPFM_API_Input_Reader"
+	dpfm_api_input_reader "data-platform-api-production-order-conf-creates-rmq-kube/DPFM_API_Input_Reader"
 	"sync"
 
 	"github.com/latonaio/golang-logging-library-for-data-platform/logger"
