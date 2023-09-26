@@ -35,6 +35,8 @@ spec:
               value: ""
             - name: "RMQ_SESSION_CONTROL_QUEUE"
               value: "data-platform-api-production-order-conf-creates-session-control-queue"
+#            - name: "NESTJS_DATA_CONNECTION_REQUEST_CONTROL_MANAGER_CONSUME"
+#              value: "convert-to-sap-pp-order-conf-from-dpfm-pp-order-conf-queue-from"
             - name: "DB_NAME"
               value: "DataPlatformMastersAndTransactionsMysqlKube"
           envFrom:
